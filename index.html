@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>像素世界 | Pixel Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Scanlines Effect -->
+  <div class="scanlines"></div>
+  
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">► PIXEL.GAME</a>
+      <nav class="nav">
+        <a href="index.html" class="active">首页</a>
+        <a href="about.html">简介</a>
+        <a href="projects.html">作品</a>
+        <a href="experience.html">经历</a>
+        <a href="contact.html">联系</a>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1 class="hero-title">欢迎来到像素世界</h1>
+        <p class="hero-subtitle">我是林像素</p>
+        <p class="hero-desc">
+          一名热爱创造的前端开发者 & 像素艺术家。<br>
+          用代码编织梦想，用像素描绘世界。
+        </p>
+        <div class="hero-buttons">
+          <a href="about.html" class="btn btn-primary">了解我</a>
+          <a href="projects.html" class="btn btn-secondary">查看作品</a>
+        </div>
+      </section>
+      
+      <!-- Quick Stats -->
+      <div class="card fade-in fade-in-delay-1">
+        <h3 class="card-title">游戏数据</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; text-align: center;">
+          <div>
+            <div style="font-family: var(--font-pixel); font-size: 24px; color: var(--color-primary);">5+</div>
+            <div style="font-size: 16px; color: var(--color-text-dim);">年开发经验</div>
+          </div>
+          <div>
+            <div style="font-family: var(--font-pixel); font-size: 24px; color: var(--color-secondary);">30+</div>
+            <div style="font-size: 16px; color: var(--color-text-dim);">完成项目</div>
+          </div>
+          <div>
+            <div style="font-family: var(--font-pixel); font-size: 24px; color: var(--color-accent);">∞</div>
+            <div style="font-size: 16px; color: var(--color-text-dim);">创意灵感</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Featured Section -->
+      <div class="card fade-in fade-in-delay-2">
+        <h3 class="card-title">最新动态</h3>
+        <div style="display: flex; flex-direction: column; gap: 15px;">
+          <div style="padding: 15px; background: var(--color-bg-secondary); border-left: 4px solid var(--color-primary);">
+            <span style="font-family: var(--font-pixel); font-size: 10px; color: var(--color-secondary);">2024.03</span>
+            <p style="margin-top: 8px; font-size: 18px;">完成「像素农场」游戏项目，正在进行紧张的测试阶段...</p>
+          </div>
+          <div style="padding: 15px; background: var(--color-bg-secondary); border-left: 4px solid var(--color-accent);">
+            <span style="font-family: var(--font-pixel); font-size: 10px; color: var(--color-secondary);">2024.01</span>
+            <p style="margin-top: 8px; font-size: 18px;">开源项目「PixelUI」获得 1k+ Star，感谢大家的支持！</p>
+          </div>
+          <div style="padding: 15px; background: var(--color-bg-secondary); border-left: 4px solid var(--color-success);">
+            <span style="font-family: var(--font-pixel); font-size: 10px; color: var(--color-secondary);">2023.11</span>
+            <p style="margin-top: 8px; font-size: 18px;">加入 Game Studio，开始新的冒险！</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Decorative Divider -->
+      <div class="pixel-divider"></div>
+      
+      <!-- Skills Preview -->
+      <div class="card fade-in fade-in-delay-3">
+        <h3 class="card-title">技能树</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">HTML/CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Vue</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Pixel Art</span>
+          <span class="skill-tag">Game Dev</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        © 2024 <span>►</span> 林像素 <span>|</span> 
+        用❤打造的像素世界 | <a href="https://github.com" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
